@@ -1,4 +1,4 @@
-.center-translate, #content-testmonials img, #content-testmonials .row-testimony p:after {
+.center-translate, #content-testmonials img {
   left: 50%;
   position: relative;
   -webkit-transform: translate(-50%, 0) !important;
@@ -46,41 +46,3 @@
   @media only screen and (max-width: 768px) {
     #content-testmonials h3 {
       font-size: 1.1rem; } }
-
-#content-testmonials .row-testimony p {
-  text-align: center;
-  padding: 0 15%;
-  font-size: 1.2rem;
-  margin-bottom: 2rem; }
-  #content-testmonials .row-testimony p:after {
-    content: '';
-    position: absolute;
-    width: 8em;
-    height: 3px;
-    background-color: #C9ADA7;
-    left: 50%;
-    float: left;
-    margin-top: 40px; }
-  @media only screen and (max-width: 992px) {
-    #content-testmonials .row-testimony p {
-      padding: 0; } }
-  @media only screen and (max-width: 768px) {
-    #content-testmonials .row-testimony p {
-      font-size: 0.9rem; } }
-
-#content-testmonials .row-testimony img {
-  margin-top: 3.2rem; }
-
-#content-testmonials .row-testimony h5 {
-  color: #C9ADA7; }
-  @media only screen and (max-width: 768px) {
-    #content-testmonials .row-testimony h5 {
-      margin-bottom: 4rem; } }
-
-#content-testmonials .row-testimony h4,
-#content-testmonials .row-testimony h5 {
-  text-align: center; }
-  @media only screen and (max-width: 768px) {
-    #content-testmonials .row-testimony h4,
-    #content-testmonials .row-testimony h5 {
-      font-size: 1rem; } }

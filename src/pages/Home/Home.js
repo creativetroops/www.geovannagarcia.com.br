@@ -1,8 +1,4 @@
-import React, { Component } from 'react'
-import DocumentMeta         from 'react-document-meta'
-
-// Configs
-import { MetaTag }          from '../../configs/'
+import React, { Component, Fragment } from 'react'
 
 //Components
 import Menu                 from '../../components/Menu'
@@ -15,6 +11,8 @@ import ContentServices      from '../../components/Content/ContentServices'
 import ContentContact       from '../../components/Content/ContentContact'
 import ContentTestmonials   from '../../components/Content/ContentTestmonials'
 
+// JQuery
+import $ from 'jquery'
 
 //Plugins
 import { PluginMouseWheel }     from '../../plugins/plugin-mouse-wheel'
@@ -22,22 +20,17 @@ import { PluginNiceScroll }     from '../../plugins/plugin-nice-scroll'
 import { PluginScrollReveal }   from '../../plugins/plugin-scroll-reveal'
 import { PluginOwlCarousel }    from '../../plugins/plugin-owl-carousel'
 
-// JQuery
-const $ = window.$
-
 class Home extends Component {
 	componentDidMount(){
-		$(document).ready(() => {
-			this.pluginNiceScroll   = new PluginNiceScroll()
-			this.pluginScrollReveal = new PluginScrollReveal()
-			this.pluginOwlCarousel  = new PluginOwlCarousel()
-			this.pluginMouseWheel   = new PluginMouseWheel()
-			$('#loader').fadeOut();
-		})
+		this.pluginNiceScroll   = new PluginNiceScroll()
+		this.pluginScrollReveal = new PluginScrollReveal()
+		this.pluginOwlCarousel  = new PluginOwlCarousel()
+		this.pluginMouseWheel   = new PluginMouseWheel()
+		$('#loader').fadeOut();
 	}
 	render() {
 		return(
-			<DocumentMeta {...MetaTag}>
+			<Fragment>
 				<Menu/>
 				<Section id="home">
 					<Content id="content-home" container="false">
@@ -69,7 +62,7 @@ class Home extends Component {
 						<ContentContact></ContentContact>
 					</Content>
 				</Section>
-			</DocumentMeta>
+			</Fragment>
 		)
 	}
 }
