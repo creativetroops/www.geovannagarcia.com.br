@@ -2,7 +2,7 @@
   "name": "dctb-geovanna-reactjs",
   "version": "0.1.0",
   "description": "Wedding assistant Geovanna, assets and website.",
-  "homepage": "https://github.com/creativetroops/www.geovannagarcia.com.br",
+  "homepage": "./",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/creativetroops/www.geovannagarcia.com.br"
