@@ -1,0 +1,45 @@
+{
+  "name": "dctb-geovanna-reactjs",
+  "version": "0.1.0",
+  "description": "Wedding assistant Geovanna, assets and website.",
+  "homepage": "https://github.com/creativetroops/www.geovannagarcia.com.br",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/creativetroops/www.geovannagarcia.com.br"
+  },
+  "keywords": [
+    "react",
+    "front-end",
+    "sass"
+  ],
+  "author": "Diogo Cezar <diogo@diogocezar.com>",
+  "private": false,
+  "dependencies": {
+    "bootstrap": "^4.1.2",
+    "concurrently": "^3.6.0",
+    "jquery": "^3.3.1",
+    "jquery.mousewheel": "^3.1.9",
+    "jquery.nicescroll": "^3.7.6",
+    "node-sass-chokidar": "^1.3.0",
+    "owl.carousel": "^2.3.4",
+    "react": "^16.4.1",
+    "react-document-meta": "^3.0.0-beta.2",
+    "react-dom": "^16.4.1",
+    "react-owl-carousel": "^2.3.1",
+    "react-scripts": "1.1.4",
+    "scrollreveal": "^3.4.0"
+  },
+  "scripts": {
+    "build-css": "node-sass-chokidar src/ -o src/",
+    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
+    "start": "concurrently \"npm run watch-css\" \"react-scripts start\"",
+    "build": "concurrently \"npm run build-css\" \"react-scripts build\"",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
+  }
+}

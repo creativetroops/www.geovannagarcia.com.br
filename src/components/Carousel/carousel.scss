@@ -1,0 +1,27 @@
+@import '../../assets/styles/imports/_imports.scss';
+
+.owl-carousel {
+    .owl-dots {
+        margin-top: 2em !important;
+        position: absolute;
+        width: 100%;
+        @include responsive(s3) {
+            margin-top: 0em !important;
+        }
+        .owl-dot {
+            span {
+                @include transition(0.25s);
+            }
+            &:hover {
+                span {
+                    background-color: $color-light-purple !important;
+                }
+            }
+            &.active {
+                span {
+                    background-color: $color-light-purple !important;
+                }
+            }
+        }
+    }
+}

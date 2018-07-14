@@ -1,0 +1,24 @@
+.center-translate {
+  left: 50%;
+  position: relative;
+  -webkit-transform: translate(-50%, 0) !important;
+  -moz-transform: translate(-50%, 0) !important;
+  -ms-transform: translate(-50%, 0) !important;
+  transform: translate(-50%, 0) !important; }
+
+.owl-carousel .owl-dots {
+  margin-top: 2em !important;
+  position: absolute;
+  width: 100%; }
+  @media only screen and (max-width: 768px) {
+    .owl-carousel .owl-dots {
+      margin-top: 0em !important; } }
+  .owl-carousel .owl-dots .owl-dot span {
+    -webkit-transition: all 0.25s ease-in-out 0s;
+    -moz-transform: all 0.25s ease-in-out 0s;
+    -ms-transition: all 0.25s ease-in-out 0s;
+    transition: all 0.25s ease-in-out 0s; }
+  .owl-carousel .owl-dots .owl-dot:hover span {
+    background-color: #9A8C98 !important; }
+  .owl-carousel .owl-dots .owl-dot.active span {
+    background-color: #9A8C98 !important; }
