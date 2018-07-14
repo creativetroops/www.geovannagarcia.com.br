@@ -6,10 +6,8 @@ class Button extends Component {
     buttonClick(type, event){
         if(type != null){
             switch(type){
-                case 'goto-contact':
-                    $("html, body").stop().animate({
-                        scrollTop: $("#contact").offset().top
-                    }, 1000);
+                case 'goToContact':
+                    $("html, body").stop().animate({ scrollTop: $("#contact").offset().top }, 1000);
                 break;
                 default: break;
             }
