@@ -3,6 +3,8 @@ import Carousel from '../../Carousel'
 
 import './content-testmonials.css'
 
+import testimonials from '../../../data/testmonials'
+
 class ContentTestmonials extends Component {
     render() {
         return (
@@ -16,7 +18,7 @@ class ContentTestmonials extends Component {
                         </div>
                     </div>
                     <div className="row">
-                        <Carousel id="carousel-default"></Carousel>
+                        <Carousel id="carousel-default" testimonials={testimonials}></Carousel>
                     </div>
                 </div>
             </Fragment>

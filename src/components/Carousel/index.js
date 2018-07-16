@@ -2,12 +2,14 @@ import React, { Component } from 'react'
 
 import './carousel.css'
 
-import Items from './items'
-
 class Carousel extends Component {
-    getItems(){
+    constructor(props){
+        super(props)
+        this.renderTestimonials = this.renderTestimonials.bind(this)
+    }
+    renderTestimonials(){
         return(
-            Items.map((page, i) => {
+            this.props.testimonials.map((page, i) => {
                 return(
                     <div className="item" key={i}>
                         <div className="row row-testimony">
@@ -30,7 +32,7 @@ class Carousel extends Component {
     render() {
         return(
             <div id="carousel-testimony" className="owl-carousel owl-theme carousel-default">
-                {this.getItems()}
+                {this.renderTestimonials()}
             </div>
         )
     }

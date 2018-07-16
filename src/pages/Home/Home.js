@@ -20,6 +20,9 @@ import { PluginNiceScroll }     from '../../plugins/plugin-nice-scroll'
 import { PluginScrollReveal }   from '../../plugins/plugin-scroll-reveal'
 import { PluginOwlCarousel }    from '../../plugins/plugin-owl-carousel'
 
+// Menu
+import menu from '../../data/menu'
+
 class Home extends Component {
 	componentDidMount(){
 		this.pluginNiceScroll   = new PluginNiceScroll()
@@ -31,7 +34,7 @@ class Home extends Component {
 	render() {
 		return(
 			<Fragment>
-				<Menu/>
+				<Menu itemsMenu={menu}/>
 				<Section id="home">
 					<Content id="content-home" container="false">
 						<ContentHome></ContentHome>

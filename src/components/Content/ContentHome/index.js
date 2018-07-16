@@ -1,9 +1,13 @@
 import React, { Component, Fragment } from 'react'
 import Button from '../../Button'
+import $ from 'jquery'
 
 import './content-home.css'
 
 class ContentHome extends Component {
+    goToContact() {
+        $("html, body").stop().animate({ scrollTop: $("#contact").offset().top }, 1000);
+    }
     render() {
         return (
             <Fragment>
@@ -17,7 +21,7 @@ class ContentHome extends Component {
                         label="ENTRE EM CONTATO"
                         type="transparent"
                         sr="sr-2"
-                        action="goToContact">
+                        onClickFunction={this.goToContact}>
                     </Button>
                 </div>
             </Fragment>
