@@ -10,27 +10,31 @@
   -moz-transform: all 0.3s ease-in-out 0s;
   -ms-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s; }
+  #header-menu a {
+    cursor: pointer; }
   #header-menu .a-header {
     position: relative;
     float: left;
     max-width: 190px; }
-    #header-menu .a-header img {
+    #header-menu .a-header svg {
       height: 60px;
       margin-top: 5px; }
       @media only screen and (max-width: 1200px) {
-        #header-menu .a-header img {
+        #header-menu .a-header svg {
           height: 60px;
           margin-top: 5px; } }
       @media only screen and (max-width: 992px) {
-        #header-menu .a-header img {
+        #header-menu .a-header svg {
           height: 50px;
           margin-top: 10px;
           margin-left: 10px; } }
       @media only screen and (max-width: 480px) {
-        #header-menu .a-header img {
+        #header-menu .a-header svg {
           height: 50px;
           margin-top: 3px;
-          margin-left: 10px; } }
+          margin-left: 10px; }
+          #header-menu .a-header svg .st10 {
+            display: none; } }
   @media only screen and (max-width: 480px) {
     #header-menu {
       height: 60px; } }

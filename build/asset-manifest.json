@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.5e25db74.css",
-  "main.css.map": "static/css/main.5e25db74.css.map",
-  "main.js": "static/js/main.5083eeb3.js",
-  "main.js.map": "static/js/main.5083eeb3.js.map",
+  "main.css": "static/css/main.7517fb0a.css",
+  "main.css.map": "static/css/main.7517fb0a.css.map",
+  "main.js": "static/js/main.df1f14a4.js",
+  "main.js.map": "static/js/main.df1f14a4.js.map",
   "static/media/AfterMidnite.eot?": "static/media/AfterMidnite.a87a6caf.eot",
   "static/media/AfterMidnite.ttf": "static/media/AfterMidnite.64b5b297.ttf",
   "static/media/AfterMidnite.woff": "static/media/AfterMidnite.14ba17dc.woff",
@@ -24,6 +24,5 @@
   "static/media/geovanna-icon-instagram.svg": "static/media/geovanna-icon-instagram.1ec983a2.svg",
   "static/media/geovanna-icon-presentation.svg": "static/media/geovanna-icon-presentation.9dd22ecf.svg",
   "static/media/geovanna-icon-ring.svg": "static/media/geovanna-icon-ring.1278cfe2.svg",
-  "static/media/geovanna-icon-rings.svg": "static/media/geovanna-icon-rings.fd9b2cc6.svg",
-  "static/media/geovanna-logo-nav.svg": "static/media/geovanna-logo-nav.0af4aa7c.svg"
+  "static/media/geovanna-icon-rings.svg": "static/media/geovanna-icon-rings.fd9b2cc6.svg"
 }

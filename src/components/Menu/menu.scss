@@ -4,11 +4,14 @@
 @import '../../assets/styles/includes/_sizes.scss';
 
 #header-menu {
+	a{
+		cursor: pointer;
+	}
 	.a-header {
 		position: relative;
 		float: left;
 		max-width: 190px;
-		img {
+		svg {
 			height: 60px;
 			margin-top: 5px;
 			@include responsive(s1) {
@@ -24,6 +27,9 @@
 				height: 50px;
 				margin-top: 3px;
 				margin-left: 10px;
+				.st10{
+					display:none;
+				}
 			}
 		}
 	}
