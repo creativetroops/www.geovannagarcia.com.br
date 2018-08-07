@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react'
 import Button from '../../Button'
-import $ from 'jquery'
+import $      from 'jquery'
 
 import './content-home.css'
 
