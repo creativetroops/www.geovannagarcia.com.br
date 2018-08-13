@@ -3,9 +3,6 @@ import React, { Component } from 'react'
 import './carousel.css'
 
 class Carousel extends Component {
-    constructor(props){
-        super(props)
-    }
     renderTestimonials = () =>{
         return(
             this.props.testimonials.map((page, i) => {

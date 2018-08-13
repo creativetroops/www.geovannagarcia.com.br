@@ -1,7 +1,7 @@
-@import '../../assets/styles/includes/_fonts-styles.scss';
-@import '../../assets/styles/includes/_mixins.scss';
-@import '../../assets/styles/includes/_colors.scss';
-@import '../../assets/styles/includes/_sizes.scss';
+@import '../../styles/includes/_fonts-styles.scss';
+@import '../../styles/includes/_mixins.scss';
+@import '../../styles/includes/_colors.scss';
+@import '../../styles/includes/_sizes.scss';
 
 section{
     padding-top: 7rem;
@@ -23,7 +23,7 @@ section#home{
 	justify-content: center;
 	margin-top: 70px;
 	background: linear-gradient(rgba(34, 34, 59, 0.84), rgba(34, 34, 59, 0.98)),
-	url('../../assets/images/geovanna-bg-home.jpg');
+	url('/assets/images/geovanna-bg-home.jpg');
     background-position: left top;
 	@include responsive(s4) {
 	    height: calc(100vh - 60px);
@@ -36,19 +36,19 @@ section#presentation{
 	align-items: center;
 	justify-content: center;
 	background: linear-gradient(rgba(74, 74, 105, 0.80), rgba(74, 74, 105, 0.80)),
-	url('../../assets/images/geovanna-bg-presentation.jpg');
+	url('/assets/images/geovanna-bg-presentation.jpg');
 	background-position: center center;
 }
 
 section#services{
 	background: linear-gradient(rgba(34, 34, 59, 0.84), rgba(34, 34, 59, 0.98)),
-	url('../../assets/images/geovanna-bg-services.jpg');
+	url('/assets/images/geovanna-bg-services.jpg');
 	background-position: center center;
 	background-size: cover;
 }
 
 section#contact{
 	background: linear-gradient(rgba(34, 34, 59, 0.80), rgba(34, 34, 59, 0.90)),
-	url('../../assets/images/geovanna-bg-contact.jpg');
+	url('/assets/images/geovanna-bg-contact.jpg');
 	background-position: center center;
 }

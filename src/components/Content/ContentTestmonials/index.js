@@ -13,7 +13,7 @@ class ContentTestmonials extends Component {
                     <div className="row">
                         <div className="col">
                             <h2 className="sr-1">depoimentos</h2>
-                            <img src={require('../../../assets/images/geovanna-icon-ballons.svg')} alt="Ícone de dois balões com coração" className="sr-4" />
+                            <img src='/assets/images/geovanna-icon-ballons.svg' alt="Ícone de dois balões com coração" className="sr-4" />
                             <h3 className="sr-3">Aqui estão os depoimentos de alguns casais que contrataram os nossos serviços</h3>
                         </div>
                     </div>

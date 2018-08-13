@@ -11,7 +11,7 @@ class ContentAbout extends Component {
                     <div className="row">
                         <div className="col">
                             <h2 className="sr-2">Tipos de Serviços</h2>
-                            <img src={require('../../../assets/images/geovanna-icon-ring.svg')} className="sr-3" alt="Ícone de um anel de casamento"/>
+                            <img src='/assets/images/geovanna-icon-ring.svg' className="sr-3" alt="Ícone de um anel de casamento"/>
                         </div>
                     </div>
                     <div className="row">
@@ -24,7 +24,7 @@ class ContentAbout extends Component {
                             <p className="sr-1">Essa modalidade é para o casal que já contratou alguns serviços, porém, encontraram dificuldades em organizar o casamento no meio do processo. Teremos reuniões em que os noivos nos contam como será o grande dia, e então preparamos todo o suporte daqui pra frente.</p>
                         </div>
                     </div>
-                    <a href="https://www.geovannagarcia.com.br/files/geovanna-apresentacao.pdf" className="sr-2" target="_blank" rel="noopener noreferrer" download>
+                    <a href="https://www.geovannagarcia.com.br/assets/files/geovanna-apresentacao.pdf" className="sr-2" target="_blank" rel="noopener noreferrer" download>
                         <Button 
                             id="btn-presentation"
                             label="BAIXAR A APRESENTAÇÃO"

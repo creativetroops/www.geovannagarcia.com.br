@@ -5,5 +5,5 @@
 // Set the project fonts definitions here
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:200,300');
-@include font-face("TrajanPro-Regular", "../fonts/TrajanPro-Regular", null, null, eot woff ttf);
-@include font-face("AfterMidnite", "../fonts/AfterMidnite", null, null, eot woff ttf);
+@include font-face("TrajanPro-Regular", "/assets/fonts/TrajanPro-Regular", null, null, eot woff ttf);
+@include font-face("AfterMidnite", "/assets/fonts/AfterMidnite", null, null, eot woff ttf);
